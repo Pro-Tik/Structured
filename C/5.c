@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int a;
+    long long a;
     int i;
-    scanf("%d",&a);
+    scanf("%lld",&a);
     for(i=0;i<=a-1;i++){
         printf("Ho ");
     }
