@@ -5,19 +5,19 @@ int main(){
     for(i=0;i<=N;i++){
     scanf("%d",&x);
     if(x>0 && x%2 != 0){
-        printf("ODD POSITIVE");
+        printf("ODD POSITIVE\n");
     }
     if(x<0 && x%2 != 0){
-        printf("ODD NEGATVE");
+        printf("ODD NEGATVE\n");
     }
     if(x>0 && x%2 == 0){
-        printf("EVEN POSITIVE");
+        printf("EVEN POSITIVE\n");
     }
     if(x<0 && x%2 == 0){
-        printf("EVEN NEGATVE");
+        printf("EVEN NEGATVE\n");
     }
     if(x==0){
-        printf("NULL");
+        printf("NULL\n");
     }
     }
 }
