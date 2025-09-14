@@ -1,5 +1,8 @@
 #include<stdio.h>
+#include<math.h>
 int main(){
-    printf("Hii");
+    int a,b;
+    scanf("%d %d",&a,&b);
+    pow(a,b);
 
 }
