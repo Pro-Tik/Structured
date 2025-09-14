@@ -1,2 +1,5 @@
 #include<stdio.h>
-meow meow meow
+int main(){
+    printf("Hii");
+
+}
