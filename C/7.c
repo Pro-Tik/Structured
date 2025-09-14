@@ -2,7 +2,7 @@
 int main(){
     int N,x,i;
     scanf("%d",&N);
-    for(i=0;i<N;i++){
+    for(i=0;i<N && N<1000;i++){
     scanf("%d",&x);
     if(x>0 && x%2 != 0){
         printf("ODD POSITIVE\n");
