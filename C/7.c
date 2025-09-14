@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main(){
-    int x;
+    int N,x,i;
+    scanf("%d",&N);
+    for(i=0;i<=N;i++){
     scanf("%d",&x);
     if(x>0 && x%2 != 0){
         printf("ODD POSITIVE");
@@ -17,5 +19,5 @@ int main(){
     if(x==0){
         printf("NULL");
     }
-
+    }
 }
