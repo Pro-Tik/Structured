@@ -7,6 +7,7 @@ int main(){
         for(i=0;i<=a-1;i++){
         printf("Ho ");
     }
-}
+
     printf("Ho!");
+}
 }
