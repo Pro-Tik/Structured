@@ -2,7 +2,8 @@
 #include<stdio.h>
 int main(){
     int a,b,i,sum,temp;
-    sum = 0;
+    while(1){
+    
     scanf("%d",&a);
     scanf("%d",&b);
     if(a>b){
@@ -10,10 +11,10 @@ int main(){
         a=b;
         b=temp;
     }
-    if(a <= 0 && b<=0){
+    if(a <= 0 || b<=0){
         return 0;
     }
-    else if(a>0 && b>0){
+        sum = 0;
         for(i=a;i<=b;i++){
             printf("%d ",i);
             sum += i;
