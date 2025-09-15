@@ -4,7 +4,8 @@ int main(){
     int a,b,temp,i;
     scanf("%d",&a);
     scanf("%d",&b);
-    if(a>b){
+    if(a>0 && b>0){
+        if(a>b){
         temp=a;
         a=b;
         b=temp;
@@ -14,4 +15,8 @@ int main(){
             printf("%d\n",i);
         }
     }
+}
+else{
+    return 0;
+}
 }
