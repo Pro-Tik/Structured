@@ -10,8 +10,8 @@ int main(){
         }
 
     }
-    printf("%d",a);
-    printf("%d",b);
-    printf("%d",i);
-    printf("%d",sum);
+    printf("%d\n",a);
+    printf("%d\n",b);
+    printf("%d\n",i);
+    printf("%d\n",sum);
 }
