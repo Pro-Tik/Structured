@@ -14,7 +14,7 @@ int main(){
         return 0;
     }
     else{
-        for(i=a;i<b;i++){
+        for(i=a;i<=b;i++){
             printf("%d ",i);
             sum += i;
         }
