@@ -8,6 +8,6 @@ int main(){
         printf("Ho ");
     }
 
-    printf("Ho!");
+    printf("Ho!\n");
 }
 }
