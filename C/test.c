@@ -10,5 +10,5 @@ int main(){
         a=b;
         b=temp;
     }
-    printf("%d\n %d \n %d \n %d\n ",sum,a,b,i,temp);
+    printf("%d\n %d \n %d \n %d \n %d\n", sum, a, b, i, temp);
 }
