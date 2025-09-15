@@ -1,12 +1,17 @@
 //https://judge.beecrowd.com/en/problems/view/1071
 #include<stdio.h>
 int main(){
-    int a,b,i,sum;
+    int a,b,i,sum,temp;
     scanf("%d",&a);
     scanf("%d",&b);
+    if(a>b){
+        temp=a;
+        a=b;
+        b=temp;
+    }
     for(i=a;i<b;i++){
         if(i%2 != 0){
-            sum = sum +i;
+            sum += i;
         }
 
     }
