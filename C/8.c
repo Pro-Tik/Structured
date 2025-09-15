@@ -10,7 +10,7 @@ int main(){
         a=b;
         b=temp;
     }
-    for(i=a;i<b;i++){
+    for(i=a+1;i<b-1;i++){
         if(i%2 != 0){
             sum += i;
         }
