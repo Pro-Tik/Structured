@@ -13,7 +13,7 @@ int main(){
     if(a <= 0 && b<=0){
         return 0;
     }
-    else{
+    else if(a>0 && b>0){
         for(i=a;i<=b;i++){
             printf("%d ",i);
             sum += i;
