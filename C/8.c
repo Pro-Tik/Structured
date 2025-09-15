@@ -10,5 +10,8 @@ int main(){
         }
 
     }
+    printf("%d",a);
+    printf("%d",b);
+    printf("%d",i);
     printf("%d",sum);
 }
