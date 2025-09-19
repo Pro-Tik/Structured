@@ -1,31 +1,35 @@
 //https://judge.beecrowd.com/en/problems/view/1165
-#include<stdio.h>
-int main(){
-    int N,a,i;
-    scanf("%d",&N);
-    for(i=0;i<N;i++){
-        scanf("%d",&a);
-        if(a<=1){
-            return 0;
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int N;
+    scanf("%d", &N);
+
+    for (int i = 0; i < N; i++) {
+        int a;
+        scanf("%d", &a);
+
+        if (a == 1) {
+            printf("Not Prime\n");
+            continue;
         }
-        else if(a==2){
-            printf("Prime!\n");
+
+        int isPrime = 1; // assume prime
+        for (int j = 2; j * j <= a; j++) {
+            if (a % j == 0) {
+                isPrime = 0;
+                break;
+            }
         }
-        else if(a==3){
-            printf("prime\n");
-        }
-        
-        else{
-            int i1;
-            for(i1=2;i1<=a/2;i1++){
-                if(a%i1==0){
-                    printf("Not Prime\n");
-                }
-                else{
-                    printf("Prime\n");
-                }
+
+        if (isPrime) {
+            printf("%d eh primo\n",a);
+        } else {
+            printf("%d nao eh primo\n",a);
         }
     }
 
-}
+    return 0;
 }

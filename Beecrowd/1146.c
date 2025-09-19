@@ -1,3 +1,4 @@
+//https://judge.beecrowd.com/en/problems/view/1146
 #include<stdio.h>
 int main(){
     int N,i;

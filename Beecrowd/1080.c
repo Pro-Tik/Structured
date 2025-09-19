@@ -4,12 +4,12 @@
 int main(){
     int numbers[100];
     int i,max,pos;
-    for(i=0;i<3;i++){
+    for(i=0;i<100;i++){
         scanf("%d",&numbers[i]);
     }
     max = numbers[0];
     pos = 1;
-    for(i=0;i<3;i++){
+    for(i=0;i<100;i++){
         if(numbers[i]>max){
         max = numbers[i];
         pos = i+1;
@@ -18,5 +18,6 @@ int main(){
     
     }
     printf("%d\n",max);
-    printf("%d",pos);
+    printf("%d\n",pos);
+    return 0;
 }
