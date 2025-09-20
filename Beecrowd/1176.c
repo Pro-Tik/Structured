@@ -11,12 +11,11 @@ int main(){
         
         
         printf("%d\n",t1);
-        printf("%d\n",t2);
+        
         t3 = t1 + t2;
         t1=t2;
         t2= t3;
-        printf("%d\n",t1);
-        printf("%d\n",t2);
+       
 
         
 
