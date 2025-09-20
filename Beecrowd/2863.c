@@ -5,7 +5,7 @@
 
 int main(){
     int T,x,y,i;
-    scanf("%d",&T);
+    while(scanf("%d",&T)==1){
     double max=999999999999999;
     double att[T];
    
@@ -24,4 +24,5 @@ int main(){
     else{
         return 0;
     }
+}
 }
