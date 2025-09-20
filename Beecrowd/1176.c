@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 int main(){
-    int a,i,N,t1,t2;
+    int a,i,N,t1,t2,t3;
     scanf("%d",&N);
     t1=0;
     t2 = 1;
@@ -12,8 +12,9 @@ int main(){
         
         printf("%d\n",t1);
         printf("%d\n",t2);
+        t3 = t1 + t2;
         t1=t2;
-        t1= t1 + t2;
+        t2= t3;
         printf("%d\n",t1);
         printf("%d\n",t2);
 
