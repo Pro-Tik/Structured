@@ -6,8 +6,8 @@ int main(){
     d = c--;
     a= --d;
     a=--c;
-    printf("%d",a);
-    printf("%d",b);
-    printf("%d",c);
-    printf("%d",d);
+    printf("%d\n",a);
+    printf("%d\n",b);
+    printf("%d\n",c);
+    printf("%d\n",d);
 }
